@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pehnava-By-Surbhi</title>
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-blue-200 bg-cover bg-center">
+  <!-- NavBar Start -->
+  <nav class="bg-gradient-to-r from-blue-100 via-pink-100 to-green-100 border-b border-gray-200 p-4 shadow-lg">
+    <div class="container mx-auto flex flex-col md:flex-row md:justify-between md:items-center">
+      <div class="flex justify-center md:justify-start">
+        <a href="/" class="text-blue-700 text-xl font-extrabold tracking-wide hover:text-blue-900 mb-4 md:mb-0">Pehnava-By-Surbhi</a>
+      </div>
+      <div class="flex flex-wrap justify-center md:justify-end gap-4 md:gap-10">
+        <a href="/about" class="text-gray-700 font-semibold hover:text-blue-700 transition"><u>About Us</u></a>
+        <a href="/contact" class="text-gray-700 font-semibold hover:text-blue-700 transition"><u>Contact Us</u></a>
+        <a href="/community" class="text-gray-700 font-semibold hover:text-blue-700 transition"><u>Community</u></a>
+      </div>
+    </div>
+  </nav>
+  <!-- NavBar ends -->
+   <!-- Heading start -->
+  <div class="container mx-auto mt-14">
+    <div class="text-center">
+      <h1 class="mb-2 tracking-wide drop-shadow-lg animate-gradient-x flex flex-wrap justify-center items-center text-center" style="letter-spacing:2px;">
+        <span class="text-7xl font-black bg-gradient-to-r from-blue-600 via-pink-500 to-green-500 text-transparent bg-clip-text w-full">Pehnava</span>
+        <span class="text-pink-600 text-xl font-bold ml-2 sm:inline-block w-auto block sm:ml-2 mt-0 sm:mt-0 mt-2" style="@media (max-width:450px) and (min-width:350px){display:block;margin-left:0;margin-top:8px;}">By</span>
+        <span class="text-green-600 text-xl font-bold ml-1 sm:inline-block w-auto block sm:ml-1 mt-0 sm:mt-0 mt-2" style="@media (max-width:450px) and (min-width:350px){display:block;margin-left:0;margin-top:2px;}">Surbhi</span>
+      </h1>
+      <p class="text-lg mt-2 text-red-500 font-semibold italic drop-shadow-sm">One-stop destination for all your fashion needs.</p>
+    </div>
+  </div>
+  <!-- Heading ends -->
+   <!-- Text Start -->
+   <div class="container mx-auto mt-12">
+     <div class="text-center mb-8">
+      <p class="text-md mt-2 text-gray-800">Explore our wide range of products and find the perfect outfit for any occasion. From traditional to contemporary, we have something for everyone.</p>
+      <p class="text-md mt-2 text-gray-800">Shop now and experience the best in fashion with <span class="font-semibold text-blue-600">Pehnava-By-Surbhi</span>.</p>
+     </div>     
+     <!-- Text ends -->
+      <!-- Design Before Image start -->
+     <div class="flex justify-center gap-10 mb-8 flex-wrap mt-20">
+       <div class="flex flex-col items-center">
+         <div class="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 rounded-full shadow-xl px-10 py-5 text-xl font-extrabold text-white mb-2 border-2 border-blue-200 animate-pulse">New-Arrivals</div>
+         <span class="text-sm text-blue-700 font-semibold">Latest Styles</span>
+       </div>
+       <div class="flex flex-col items-center">
+         <div class="bg-gradient-to-r from-pink-400 via-pink-600 to-pink-800 rounded-full shadow-xl px-10 py-5 text-xl font-extrabold text-white mb-2 border-2 border-pink-200 animate-pulse">Hand-Bags</div>
+         <span class="text-sm text-pink-700 font-semibold">Trendy Accessories</span>
+       </div>
+       <div class="flex flex-col items-center">
+         <div class="bg-gradient-to-r from-green-400 via-green-600 to-green-800 rounded-full shadow-xl px-10 py-5 text-xl font-extrabold text-white mb-2 border-2 border-green-200 animate-pulse">Occasion-Wear</div>
+         <span class="text-sm text-green-700 font-semibold">Special Events</span>
+       </div>
+     </div>
+      <!-- Design Before Image ends -->
+     <!-- Main Content Wrapper Start -->
+     <div class="flex flex-col w-full">
+       <!-- Products Start -->
+       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-center items-stretch w-full px-2 md:px-8">
+      <!-- 1st Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/1.png', 'CoordSet', 'Premium work | Floral Embroidery design | CoordSet | All-day comfort🌸', '₹997')">
+        <img src="/images/1.png" alt="CoordSet" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">CoordSet</span>
+          <span class="block text-red-700 text-xs flex-wrap break-words whitespace-pre-line">Premium work | Floral Embroidery design | CoordSet | All-day comfort🌸</span>
+          <span class="block text-blue-700 text-base font-bold">₹997</span>
+        </div>
+      </div>
+      <!-- 2nd Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/2.png', 'Hand-Bag', 'Introducing our latest collection of must-have bags! Perfect for shopping, work or travelling!!', '₹1599')">
+        <img src="/images/2.png" alt="Hand-Bag" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:center;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Hand-Bag</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Introducing our latest collection of must-have bags! Perfect for shopping, work or travelling!!</span>
+          <span class="block text-blue-700 text-base font-bold">₹1599</span>
+        </div>
+      </div>
+      <!-- 3rd Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/4.png', 'Summer-Suit', 'Be his anarkali in this yellow COLOUR☀️\nPure cotton fabric designer anarkali perfect for this summer wear.', '₹ 999')">
+        <img src="/images/4.png" alt="Summer-Suit" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Summer-Suit</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Be his anarkali in this yellow COLOUR☀️<br>Pure cotton fabric designer anarkali perfect for this summer wear.</span>
+          <span class="block text-blue-700 text-base font-bold">₹ 999</span>
+        </div>
+      </div>
+      <!-- 4th Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/3.png', 'Denim-Bag', 'Our this convertible bag transforms effortlessly from a classy tote to comfy backpack 👜🎒\n✨This bag style meets functions for your on-the-go lifestyle. Whether you’re going to work, school, college, weekend getaway or to some trip, this bag definitely comes to your desires✨', '₹1890')">
+        <img src="/images/3.png" alt="Denim-Bag" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Denim-Bag</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Our this convertible bag transforms effortlessly from a classy tote to comfy backpack 👜This bag style meets functions for your on-the-go lifestyle.</span>
+          <span class="block text-blue-700 text-base font-bold">₹1890</span>
+        </div>
+      </div>
+      <!-- 5th Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/5.png', 'Lizibizi CoordSet', 'Soft elegance in every thread💙\nWearing this beautiful crafted lizibizi cotton coord set adorned with delicate embroidery embellished with lace detailing.✨', '₹1200')">
+        <img src="/images/5.png" alt="Lizibizi CoordSet" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Lizibizi CoordSet</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Soft elegance in every thread💙<br>Wearing this beautiful crafted lizibizi cotton coord set adorned with delicate embroidery embellished with lace detailing.✨</span>
+          <span class="block text-blue-700 text-base font-bold">₹1200</span>
+        </div>
+      </div>
+      <!-- 6th Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card h-full" onclick="showOrderModal('/images/6.png', 'Black Suit set', 'Our new hot sizzling pakistani summer collectionEmbrace the sunshine in style and make a splash wherever you go💥', '₹1870')">
+        <img src="/images/6.png" alt="Black Suit set" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full flex-1 flex flex-col justify-center items-center text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Black Suit set</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Our new hot sizzling pakistani summer collectionEmbrace the sunshine in style and make a splash wherever you go💥</span>
+          <span class="block text-blue-700 text-base font-bold">₹1870</span>
+        </div>
+      </div>
+      <!-- 7th Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card h-full" onclick="showOrderModal('/images/7.png', 'Olive Suit🌿', 'Olive Suit🌿{Additional sleeves Attached inside}', '₹1890')">
+        <img src="/images/7.png" alt="Olive Suit🌿" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:center;">
+        <div class="mt-2 w-full flex-1 flex flex-col justify-center items-center text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Olive Suit🌿</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Olive Suit🌿{Additional sleeves Attached inside}</span>
+          <span class="block text-blue-700 text-base font-bold">₹1890</span>
+        </div>
+      </div>
+      <!-- 8th Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/8.png', 'PU Leather Bag', 'Women PU Leather large capacity Elegant Designer Shoulder and Cross Bag for all age groups🎀', '₹1399')">
+        <img src="/images/8.png" alt="Product Name" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:center;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">PU Leather Bag</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Women PU Leather large capacity Elegant Designer Shoulder and Cross Bag for all age groups🎀</span>
+          <span class="block text-blue-700 text-base font-bold">₹ 1399</span>
+        </div>
+      </div>
+      <!-- 9th Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/9.png', 'CoordSet', 'Black Coord Set In pure Cotton Fabric', '₹1320')">
+        <img src="/images/9.png" alt="Product Name" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">CoordSet</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Black Coord Set In pure Cotton Fabric</span>
+          <span class="block text-blue-700 text-base font-bold">₹1320</span>
+        </div>
+      </div>
+      <!-- 10th Product -->
+      <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/10.png', 'kurta', 'The kurta is tailored in a little A-Shape, adorned with beautiful hand work on the sleeves and pallu, combining subtle embroideries with pearl, kundan and sippi.', '₹1870','object-fit:cover','object-position:top')">
+        <img src="/images/10.png" alt="Product Name" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">kurta</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">The kurta is tailored in a little A-Shape, adorned with beautiful hand work on the sleeves and pallu, combining subtle embroideries with pearl, kundan and sippi.</span>
+          <span class="block text-blue-700 text-base font-bold">₹1870</span>
+        </div>
+      </div>
+      <!-- 11th Product -->
+       <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/11.png', 'Black Summer-Suit', 'Black suit Set In pure Cotton Fabric', '₹950')">
+        <img src="/images/11.png" alt="Product Name" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Black Summer-Suit</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Black suit Set In pure Cotton Fabric</span>
+          <span class="block text-blue-700 text-base font-bold">₹950</span>
+        </div>
+      </div>
+      <!-- 12th Product -->
+       <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/12.png', 'Summer-Suit', 'HURRY UP TO GRAB THE BEST DEAL || IN VERY AFFORDABLE PRICE🛍️', '₹1420')">
+        <img src="/images/12.png" alt="Product Name" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Summer-Suit</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">HURRY UP TO GRAB THE BEST DEAL || IN VERY AFFORDABLE PRICE🛍️</span>
+          <span class="block text-blue-700 text-base font-bold">₹1420</span>
+        </div>
+      </div>
+      <!-- 13th Product -->
+       <div class="bg-yellow-200 p-2 rounded-lg shadow-lg border border-yellow-100 overflow-hidden flex flex-col items-center cursor-pointer product-card" onclick="showOrderModal('/images/13.png', 'Summer-Suit', 'Stylish Suit Set In pure Cotton Fabric with a pure grace.', '₹1200')">
+        <img src="/images/13.png" alt="Product Name" class="w-60 h-76 object-cover rounded-md object-center" style="object-fit:cover; object-position:top;">
+        <div class="mt-2 w-full text-center">
+          <span class="block text-gray-700 text-sm font-semibold">Summer-Suit</span>
+          <span class="block text-red-700 text-xs break-words whitespace-pre-line">Stylish Suit Set In pure Cotton Fabric with a pure grace.</span>
+          <span class="block text-blue-700 text-base font-bold">₹1200</span>
+        </div>
+      </div>
+      <!-- Products End -->
+    </div>
+    <div id="orderModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+      <div class="bg-white rounded-lg p-4 w-[90vw] max-w-xs md:max-w-md shadow-xl relative">
+        <button onclick="closeOrderModal()" class="absolute top-2 right-2 text-gray-500 hover:text-red-500 text-xl">&times;</button>
+        <div class="flex flex-col items-center mb-4">
+          <img id="modalProductImg" src="/images/logo.png" alt="Product" class="w-24 h-24 rounded-md mb-2 object-cover object-center">
+          <span class="text-xl font-bold text-blue-700" id="modalProductNameTitle">Pehnava By Surbhi</span>
+        </div>
+        <h3 id="modalProductName" class="text-lg font-semibold mb-2"></h3>
+        <p id="modalProductDesc" class="text-sm text-gray-600 mb-2 break-words whitespace-pre-line"></p>
+        <p id="modalProductPrice" class="text-base text-blue-700 font-bold mb-4"></p>
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-md mb-4 w-full">Order Now</button>
+        <div class="flex flex-col gap-2">
+          <a id="whatsappLink" href="#" target="_blank" class="bg-green-500 text-white px-4 py-2 rounded-md flex items-center justify-center gap-2"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" class="w-5 h-5">Contact via WhatsApp</a>
+          <a id="emailLink" href="#" class="bg-blue-500 text-white px-4 py-2 rounded-md flex items-center justify-center gap-2"><img src="https://img.icons8.com/color/48/000000/email.png" class="w-5 h-5">Contact via Email</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Note Section Start -->
+    <div class="container mx-auto mb-6 mt-8">
+      <div class="bg-zinc-800 p-2 rounded-lg flex flex-col items-center">
+        <span class="text-lg font-semibold text-red-500 mb-4">Note</span>
+        <p class="text-sm text-yellow-300 text-center mb-2">Join our community to get the latest updates and exclusive offers! If you want to know more about any product, contact us on WhatsApp.</p>
+        <a href="https://wa.me/919876543210?text=I want to join Pehnava Community" target="_blank" class="bg-green-500 text-white px-4 py-3 rounded-md flex items-center gap-2 hover:bg-green-600 text-xs">
+          <img src="https://img.icons8.com/color/48/000000/whatsapp.png" class="w-4 h-4"> Let's Get Connected
+        </a>
+      </div>
+    </div>
+    <!-- Note Section End -->
+
+    <!-- Footer -->
+    <footer class="bg-zinc-900 text-white py-4 mt-4">
+      <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-2 mb-2 md:mb-0">
+          <img src="/images/logo.png" alt="Logo" class="w-8 h-8 rounded-full">
+          <span class="text-xl font-bold text-blue-300">Pehnava By Surbhi</span>
+        </div>
+        <div class="flex flex-col gap-1 text-xs">
+          <span><strong>Contact:</strong> +91-7082647997</span>
+          <span><strong>Email:</strong> pehnava.surbhi@gmail.com</span>
+          <span><strong>Location:</strong> Delhi, India</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function showOrderModal(img, name, desc, price) {
+        document.getElementById('orderModal').classList.remove('hidden');
+        document.getElementById('modalProductImg').src = img;
+        document.getElementById('modalProductNameTitle').innerText = name;
+        document.getElementById('modalProductName').innerText = name;
+        document.getElementById('modalProductDesc').innerHTML = desc.replace(/\n/g, '<br>');
+        document.getElementById('modalProductPrice').innerText = price;
+        document.getElementById('whatsappLink').href = `https://wa.me/919876543210?text=I want to order ${name}`;
+        document.getElementById('emailLink').href = `mailto:pehnava.surbhi@gmail.com?subject=Order for ${name}`;
+      }
+      function closeOrderModal() {
+        document.getElementById('orderModal').classList.add('hidden');
+      }
+    </script>
+</body>
+</html>
